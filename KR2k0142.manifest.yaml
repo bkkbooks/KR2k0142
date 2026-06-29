@@ -1,0 +1,80 @@
+canonical_identifier: bkk:krp/KR2k0142/v1
+canonical_location: https://kanripo.org/bkk/KR2k0142/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 島夷志略
+  date: '2015-08-24 22:47:16.322058'
+  source:
+    repository: kanripo
+    path: KR2k0142
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0142_000.yaml, hash: 'sha256:797ccafd63b0a3b762da8d0ebd10a5e97d4c2a2a8e801c81b24807b5042e3db8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0142_000.markers.yaml, hash: 'sha256:73c59a2389094ad6aa2a608d3fe79552e4783d546732b1128d686a3aed97ab35'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0142_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 606
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0142_WYG_000-4a
+    span:
+    - body
+    - 606
+    - 1426
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0142_WYG_000-7a
+    span:
+    - body
+    - 1426
+    - 1866
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0142_WYG_000-9a
+    span:
+    - body
+    - 1866
+    - 17297
+  label: 島夷誌畧
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0142_WYG_000-64a
+    span:
+    - body
+    - 17297
+    - 17379
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:2ce93ca6a9562c7e6b29a1756ce666cf7f13e041563bc87e508e73f59a63a610
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
